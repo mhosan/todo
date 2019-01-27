@@ -7,4 +7,26 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'test01';
+  gente: Array<any>;
+  persona: Object = 'Soy otra persona';
+  constructor() {
+    this.gente = [{
+      nombre: 'Jaime',
+      edad: 30,
+    },
+    {
+      nombre: 'Guadalupe',
+      edad: 25
+    },
+    {
+      nombre: 'Jacobo',
+      edad: 35
+    },
+    {
+      nombre: 'Ruben',
+      edad: 31
+    }
+    ];
+  }
+
 }
