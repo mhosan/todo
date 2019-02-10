@@ -7,7 +7,7 @@ import { listLazyRoutes } from '@angular/compiler/src/aot/lazy_routes';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Prueba con Firebase';
+  title = 'Firebase';
 
   constructor() {
   }
