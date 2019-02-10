@@ -7,36 +7,12 @@ import { listLazyRoutes } from '@angular/compiler/src/aot/lazy_routes';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  
-  title = 'test01';
-  gente: Array<any> = [{
-    nombre: 'Jaime',
-    edad: 30,
-  },
-  {
-    nombre: 'Guadalupe',
-    edad: 25
-  },
-  {
-    nombre: 'Jacobo',
-    edad: 35
-  },
-  {
-    nombre: 'Ruben',
-    edad: 31
-  }
-  ];
-  persona: Object = 'Soy otra persona';
+  title = 'Prueba con Firebase';
 
   constructor() {
   }
-  @ViewChild('lista') lista;
-  // tslint:disable-next-line:use-life-cycle-interface
-  ngOnInit(): void {
-    console.log(this.lista);
-  }
-  borramiento() {
-    this.gente = [];
+
+  ngOnInit() {
   }
 
 }

@@ -3,7 +3,15 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase : {
+    apiKey: 'AIzaSyBUxp7pkqLENs2MgZdZtQV6CZ7A5offjSQ',
+    authDomain: 'datosweb-624fb.firebaseapp.com',
+    databaseURL: 'https://datosweb-624fb.firebaseio.com',
+    projectId: 'datosweb-624fb',
+    storageBucket: 'datosweb-624fb.appspot.com',
+    messagingSenderId: '81794520230'
+  }
 };
 
 /*
@@ -14,3 +22,4 @@ export const environment = {
  * on performance if an error is thrown.
  */
 // import 'zone.js/dist/zone-error';  // Included with Angular CLI.
+
