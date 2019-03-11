@@ -13,7 +13,8 @@ export class TodoFormComponent implements OnInit {
 
   ngOnInit() {
     this.todoForm = this.formBuilder.group({
-      title: ['', Validators.required],
+      title: ['', Validators.required],       // title es un input text en el html, se define en la prop
+                                              // 'formControlName'
       description: ['', Validators.required],
       done: false
     });
